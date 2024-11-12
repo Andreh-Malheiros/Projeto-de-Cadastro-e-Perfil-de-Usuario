@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="java.js" defer></script>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+  </style>
+
+  <body>
+    <div id="container">
+      <header>
+        <button id="loginButton">LOGIN/CADASTRO</button>
+      </header>
+      <nav>
+        <div id="formulario" class="modal">
+          <button id="close-button">&times;</button>
+          <div class="input-container">
+            <input type="text" name="nome" id="nome" placeholder=" " />
+            <label for="nome" class="floating-label">Nome</label>
+          </div>
+          <div class="input-container">
+            <input type="text" name="email" id="email" placeholder=" " />
+            <label for="email" class="floating-label">Email</label>
+          </div>
+          <div class="input-container">
+            <input type="text" name="telefone" id="telefone" oninput=mascaraCelular() placeholder=" " />
+            <label for="telefone" class="floating-label">Telefone</label>
+          </div>
+          <div class="input-container">
+            <input type="text" name="cpf" id="cpf" oninput=mascaraCpf() placeholder=" " />
+            <label for="cpf" class="floating-label">CPF</label>
+          </div>
+          <div class="input-container">
+            <input type="password" name="senha" id="senha" placeholder=" " />
+            <label for="senha" class="floating-label">Senha</label>
+          </div>
+
+          <div>
+            <button id="cadastrar" onclick=salvarDados()>CADASTRAR</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
