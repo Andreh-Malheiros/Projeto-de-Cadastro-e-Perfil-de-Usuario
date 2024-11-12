@@ -91,7 +91,7 @@
 }
 
 
-.blur{
+.blur, .blurEmail{
     background-color: rgba(252, 252, 252, 0.582);
     width: fit-content; 
     height: 30%;
@@ -106,7 +106,11 @@
     transition: .5s;
 }
 
-.blur:hover{
+.blurEmail{
+  font-size: 1rem;
+}
+
+.blur:hover, .blurEmail:hover{
     filter: blur(0px);
 }
 
