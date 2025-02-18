@@ -10,7 +10,6 @@ Ao concluir o cadastro, os dados são salvos no `localStorage` do navegador, e o
 - **Modal de Cadastro**: Formulário com campos para Nome, Email, Telefone, CPF e Senha.
 - **Salvar Dados no LocalStorage**: Os dados do usuário são salvos no `localStorage` ao completar o cadastro.
 - **Redirecionamento para Perfil**: Após o cadastro, o usuário é redirecionado para a página de perfil, onde as informações salvas são exibidas.
-- **Responsividade**: Layout construído usando CSS Grid, com foco na responsividade e organização dos elementos.
 - **Tema Consistente**: Todas as páginas seguem o mesmo padrão de cores, espaçamento, e fontes.
 
 ## Tecnologias Utilizadas
